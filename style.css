@@ -22,16 +22,34 @@
     --end-width: 8%;
     --end-aspect-ratio: 1/2;
     --start-top: 49vh;
-    --start-left: 39%;
+    --start-left: 40%;
     --middle-top: 87vh;
     --end-top: 72vh;
-    --end-left:36%;
+    --end-left:37%;
     position: fixed;
     width: var(--end-width);
     aspect-ratio: var(--end-aspect-ratio);
     top: var(--end-top);
     left: var(--end-left);
     background-color: blueviolet;
+    animation-name: creatureOpeningAnimation;
+    animation-duration: 1s;
+}
+.creature3{
+    --start-width: 2%;
+    --end-width: 8%;
+    --end-aspect-ratio: 1/2;
+    --start-top: 49vh;
+    --start-left: 55%;
+    --middle-top: 87vh;
+    --end-top: 72vh;
+    --end-left:55%;
+    position: fixed;
+    width: var(--end-width);
+    aspect-ratio: var(--end-aspect-ratio);
+    top: var(--end-top);
+    left: var(--end-left);
+    background-color: skyblue;
     animation-name: creatureOpeningAnimation;
     animation-duration: 1s;
 }
